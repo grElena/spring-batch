@@ -1,0 +1,11 @@
+spring.datasource.initialization-mode : always
+spring.datasource.platform : postgres
+spring.datasource.driver-class-name : org.postgresql.Driver
+spring.datasource.url : jdbc:postgresql://localhost:5432/testdb
+spring.datasource.username : postgres
+spring.datasource.password : 1111
+hibernate.temp.use_jdbc_metadata_defaults : false
+.enabled : true
+spring:
+  batch:
+    initialize-schema: always
